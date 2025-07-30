@@ -1,0 +1,25 @@
+.nav-bar {
+  background-color: rgb(233,229,255);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 32px;
+}
+
+.nav-logo {
+  height: 65px;
+}
+
+.auth-btn-container {
+  display: flex;
+  flex-direction: row;
+  gap:10px;
+}
+
+
+.btn-secondary {
+  border: 1.5px solid #4736bf;
+  background-color: yellow !important;
+  color: #4736bf;
+}
